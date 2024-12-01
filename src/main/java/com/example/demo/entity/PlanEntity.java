@@ -9,17 +9,17 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table ( name = "PLANDETAILS")
+@Table(name = "PLANDETAILS")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 public class PlanEntity {
 	
 	@Id
-	@Column( name = "PLANID")
+	@Column(name = "PLANID")
 	private String planId;
 	
-	@Column( name = "PLANNAME")
+	@Column(name = "PLANNAME")
 	private String planName;
 	
 	private String description;
